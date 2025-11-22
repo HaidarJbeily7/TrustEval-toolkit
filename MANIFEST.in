@@ -1,0 +1,9 @@
+include readme.md
+include LICENSE
+include pyproject.toml
+recursive-include trusteval *.py *.json *.yaml *.yml *.txt *.csv *.css *.md
+recursive-include trusteval/dimension *
+recursive-include trusteval/src *
+exclude trusteval/**/__pycache__
+exclude trusteval/**/*.pyc
+

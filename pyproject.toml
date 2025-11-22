@@ -1,15 +1,18 @@
-# [build-system]
-# requires = ["setuptools>=61.0"]
-# build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "trusteval"
 version = "0.1.0"
-description = "TrustEval: A Dynamic Evaluation Toolkit on the Trustworthiness ofGenerative Foundation Models"
+description = "TrustEval: A Dynamic Evaluation Toolkit on the Trustworthiness of Generative Foundation Models"
 authors = [
-    {name="Your Name", email="your.email@example.com"},
+    {name="TrustEval Team", email="trusteval@example.com"},
 ]
-readme = "README.md"
+readme = "readme.md"
+keywords = ["trustworthiness", "AI evaluation", "LLM", "VLM", "T2I", "safety", "fairness", "robustness"]
+homepage = "https://github.com/TrustEval/TrustEval-toolkit"
+repository = "https://github.com/TrustEval/TrustEval-toolkit"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
 classifiers = [
