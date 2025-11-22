@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "trusteval"
+name = "haidar-trusteval-toolkit"
 version = "0.1.0"
 description = "TrustEval: A Dynamic Evaluation Toolkit on the Trustworthiness of Generative Foundation Models"
 authors = [
@@ -49,10 +49,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/TrustEval/TrustEval-toolkit"
-Repository = "https://github.com/TrustEval/TrustEval-toolkit"
-Documentation = "https://github.com/TrustEval/TrustEval-toolkit/tree/main/docs"
-"Bug Tracker" = "https://github.com/TrustEval/TrustEval-toolkit/issues"
+Homepage = "https://github.com/HaidarJbeily7/TrustEval-toolkit"
+Repository = "https://github.com/HaidarJbeily7/TrustEval-toolkit"
+Documentation = "https://github.com/HaidarJbeily7/TrustEval-toolkit/tree/main/docs"
+"Bug Tracker" = "https://github.com/HaidarJbeily7/TrustEval-toolkit/issues"
 
 [project.optional-dependencies]
 # Optional dependencies for extended functionality
