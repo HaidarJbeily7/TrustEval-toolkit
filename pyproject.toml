@@ -11,8 +11,6 @@ authors = [
 ]
 readme = "readme.md"
 keywords = ["trustworthiness", "AI evaluation", "LLM", "VLM", "T2I", "safety", "fairness", "robustness"]
-homepage = "https://github.com/TrustEval/TrustEval-toolkit"
-repository = "https://github.com/TrustEval/TrustEval-toolkit"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
 classifiers = [
@@ -49,6 +47,12 @@ dependencies = [
     "gdown>=5.2.0",
     "opencv-python>=4.10.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/TrustEval/TrustEval-toolkit"
+Repository = "https://github.com/TrustEval/TrustEval-toolkit"
+Documentation = "https://github.com/TrustEval/TrustEval-toolkit/tree/main/docs"
+"Bug Tracker" = "https://github.com/TrustEval/TrustEval-toolkit/issues"
 
 [project.optional-dependencies]
 # Optional dependencies for extended functionality
